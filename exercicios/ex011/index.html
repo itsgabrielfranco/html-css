@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Trabalhando com Imagens Dinâmicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+        <img src="imgs/foto-g.png" alt="img flex">
+    </picture>
+        <h1>reproduzindo audio</h1>
+            <p>aprendendo a reproduzir audio</p>
+        
+            <audio preload="auto" autoplay controls loop> <!--use o loop para loop ne-->
+             <source src="midia/lula-e-neymar-47.mp3" type="audio/mpeg">
+             <!--Adicione outros sorces aqui, para carregar caso o primeiro não de certo-->
+            </audio>
+</body>
+</html>
