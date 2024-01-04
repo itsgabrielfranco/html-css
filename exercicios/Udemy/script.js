@@ -9,7 +9,6 @@ var sub = a-b;
 var mult = a*b;
 var div = a/b;
 
-alert(soma);
-alert(sub);
-alert(mult);
-alert(div);
+if (b%2 == 1){
+    alert("Número impar");
+}
